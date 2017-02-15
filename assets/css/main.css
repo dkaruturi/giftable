@@ -2024,7 +2024,9 @@
 
 	#promo-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo.jpg");
+/*		background-image: url("images/overlay.png"), url("../../images/promo.jpg");*/
+        background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-color: #f08c89;
 		background-size: 192px 192px, cover;
 		background-position: top left, center center;
 		color: #fff;
